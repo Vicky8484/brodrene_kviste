@@ -7,6 +7,12 @@
     <title>Brødrene Kviste</title>
 
     <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/hero.css">
+    <link rel="stylesheet" href="stylesheets/kategori.css">
+    <link rel="stylesheet" href="stylesheets/inspiration.css">
+    <link rel="stylesheet" href="stylesheets/andet.css">
+    <link rel="stylesheet" href="stylesheets/pris.css">
+    <link rel="stylesheet" href="stylesheets/footer1.css">
 
     <!--Hanalei fill font-->
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Hanalei+Fill&display=swap" rel="stylesheet">
@@ -47,7 +53,7 @@
         </nav>
     </header>
     <main>
-        <div id="forside-hero">
+        <div id="hero-section">
             <div>
                 <h2>Lejetøj til alle børn!</h2>
                 <h1>Sjov til de små</h1>
@@ -56,42 +62,68 @@
                 <button class="hero-cta">Shop nyhederne</button>
             </div>
         </div>
-        <div id="kategorier">
+        <div id="kategori-section">
             <h2>Udforsk produktkategorier</h1>
                 <div class="kategori">
-                    <div class="bamser">
-                        <img class="kat" src="forside-img/kat1.png" alt="bamser">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat1.png" alt="bamser">
                         <p>Bamser og dukker</p>
                     </div>
-                    <div class="lego">
-                        <img class="kat" src="forside-img/kat2.png" alt="lego og klodser">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat2.png" alt="lego og klodser">
                         <p>Lego og klodser</p>
                     </div>
-                    <div class="puslespil">
-                        <img class="kat" src="forside-img/kat3.png" alt="puslespil">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat3.png" alt="puslespil">
                         <p>Puslespil</p>
                     </div>
-                    <div class="figur">
-                        <img class="kat" src="forside-img/kat4.png" alt="figurer">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat4.png" alt="figurer">
                         <p>Figurer</p>
                     </div>
                 </div>
         </div>
-        <div id="inspiration">
+        <div id="inspiration-section-mobil">
+            <div class="inspi-bigbox">
+                <div>
+                    <img class="inspi-img1" src="forside-img/inspi1.jpg" alt="farver">
+                    <div class="inspi-img-text">
+                        <p>Farveblyanter</p>
+                        <p class="pris-fade">29,80 kr.</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="inspi-img2" src="forside-img/inspi2.jpg" alt="børn der tegner">
+                </div>
+            </div>
+            <div>
+                <div class="inspi-text-mobil">
+                    <div>
+                        <h2>Få inspiration</h2>
+                        <h1>Kreativ aktivitet</h1>
+                        <p>Brødrene har et væld af krea forsyninger til selv de mindste.</p>
+                        <p>Udforsk dem her.</p>
+                    </div>
+                    <br>
+                    <button class="inspi-btn">SE NYHEDERNE</button>
+                </div>
+            </div>
+        </div>
+        <div id="inspiration-section">
             <div class="inspi1-box">
                 <img class="inspi1" src="forside-img/inspi1.jpg" alt="farver">
                 <div class="tingpris">
                     <p>Farveblyanter</p>
-                    <p>29,80 kr.</p>
+                    <p class="pris-fade">29,80 kr.</p>
                 </div>
             </div>
-            <div>
+            <div class="inspi2-box">
                 <img class="inspi2" src="forside-img/inspi2.jpg" alt="børn der tegner">
             </div>
             <div class="inspi-text-box">
                 <div class="inspi-text">
                     <h2>Få inspiration</h2>
-                    <h1>Kreativt Aktiv</h1>
+                    <h1>Kreativ aktivitet</h1>
                     <br>
                     <p>Brødrene har et væld af krea forsyninger til selv de mindste.</p>
                     <p>Udforsk dem her.</p>
@@ -99,7 +131,7 @@
                 <button class="inspi-btn">SE NYHEDERNE</button>
             </div>
         </div>
-        <div id="andet">
+        <div id="andet-section">
             <div class="aktivitet">
                 <div class="kom">
                     <h2>Kom og vær med</h2>
@@ -125,6 +157,7 @@
                 </div>
             </div>
             <div class="opdagelse">
+                <img class="byggeklodser" src="forside-img/byggeklodser.webp" alt="byggeklodser">
                 <h1>Gå på opdagelse</h1>
                 <div class="row1">
                     <div>
@@ -162,7 +195,7 @@
                 </div>
             </div>
         </div>
-        <div id="pris">
+        <div id="pris-section">
             <h1>Prisvindende legetøj</h1>
             <div>
                 <div></div>
@@ -178,7 +211,7 @@
                 <button>Udforsk prisvindende legetøj</button>
             </div>
         </div>
-        <div id="footer1">
+        <div id="footer1-section">
             <h2>Prisvindende legetøj</h1>
         </div>
     </main>

@@ -1,0 +1,127 @@
+#andet-section h1 {
+  font-size: 3rem;
+}
+
+.aktivitet {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  justify-items: center;
+  padding: 7rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+
+/* .andet-img {
+    width: 600px;
+  } */
+
+/*byggeklods billedet før h1'eren "gå på opdagelse*/
+.byggeklodser {
+  width: 100px;
+}
+.opdagelse {
+  text-align: center;
+  justify-items: center;
+}
+
+.opdagelse h1 {
+  padding-top: 3rem;
+}
+
+.row1 {
+  display: flex;
+  gap: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.row2 {
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.opdagelse-img {
+  width: 400px;
+  padding-bottom: 1rem;
+}
+
+.link {
+  padding-top: 2rem;
+  transition: 1s fade;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: #408b58;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
+  #andet-section h1 {
+    font-size: 3rem;
+  }
+
+  .aktivitet {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    padding: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+  }
+
+  /* .andet-img {
+    width: 600px;
+  } */
+
+  /*byggeklods billedet før h1'eren "gå på opdagelse*/
+  .byggeklodser {
+    width: 100px;
+  }
+  .opdagelse {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .opdagelse h1 {
+    padding-top: 3rem;
+  }
+
+  .row1 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .row2 {
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .opdagelse-img {
+    width: 400px;
+    padding-bottom: 1rem;
+  }
+
+  .link {
+    padding-top: 2rem;
+    transition: 1s fade;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: #408b58;
+  }
+
+  .link:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

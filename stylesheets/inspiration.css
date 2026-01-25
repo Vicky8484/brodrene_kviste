@@ -1,0 +1,184 @@
+/**********MOBIL**********/
+
+/*desktop version sm ikke skal vises i mobil*/
+#inspiration-section {
+  display: none;
+}
+
+/*hele sectionen*/
+#inspiration-section-mobil {
+  display: block;
+  padding: 1rem;
+
+  background-color: #aaedaa;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/*div rundt om billederne*/
+.inspi-bigbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2rem;
+  gap: 1rem;
+}
+
+/*første billede*/
+.inspi-img1 {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+/*teksten under første billede*/
+.inspi-img-text {
+  font-size: 0.9rem;
+}
+
+/*fader prisen*/
+.pris-fade {
+  color: rgba(0, 0, 0, 0.612);
+}
+
+/*h1*/
+#inspiration-section-mobil h1 {
+  font-size: 2.5rem;
+}
+
+/*"se nyhederne" knappen*/
+.inspi-btn {
+  padding: 1.2rem;
+  padding-block: 0.8rem;
+  background-color: #408b58;
+  border: none;
+  color: #fffff1;
+}
+
+.inspi-btn:hover {
+  background-color: #36774b;
+}
+
+/**********MELLEMLIGGENDE**********/
+@media screen and (min-width: 800px) {
+  /*mobil version som ikke skal vises i desktop*/
+  #inspiration-section-mobil {
+    display: none;
+  }
+
+  /*hele sectionen*/
+  #inspiration-section {
+    display: block;
+    background-color: #aaedaa;
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 3rem;
+  }
+
+  /*h1*/
+  #inspiration-section h1 {
+    font-size: 3rem;
+  }
+
+  /*første billede hover*/
+  .inspi1:hover {
+    filter: brightness(90%);
+  }
+
+  /*første div med billede+billedtekst*/
+  .inspi1-box {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 0.5rem;
+  }
+
+  /*anden div med billede*/
+  .inspi2-box {
+    padding-left: 0.5rem;
+  }
+
+  /*div rundt om al teksten ved siden af*/
+  .inspi-text-box {
+    padding-top: 4rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+  }
+
+  /*selve teksten*/
+  .inspi-text {
+    padding-bottom: 2rem;
+  }
+
+  /*teksten+prisen under første billede*/
+  .tingpris {
+    font-size: 0.9rem;
+  }
+
+  /*fader prisen*/
+  .pris-fade {
+    color: #0000009c;
+    justify-items: end;
+  }
+}
+
+/**********DESKTOP**********/
+@media screen and (min-width: 1200px) {
+  /*mobil version som ikke skal vises i desktop*/
+  #inspiration-section-mobil {
+    display: none;
+  }
+
+  /*hele sectionen*/
+  #inspiration-section {
+    display: block;
+    background-color: #aaedaa;
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding-bottom: 3rem;
+  }
+
+  /*første billede*/
+  .inspi1 {
+    height: 340px;
+    width: 260px;
+    padding-bottom: 0.5rem;
+  }
+
+  .inspi1:hover {
+    filter: brightness(90%);
+  }
+
+  /*andet billede*/
+  .inspi2 {
+    width: 400px;
+  }
+
+  /*div rundt om første billede, billedtekst og pris*/
+  .inspi1-box {
+    padding-left: 6rem;
+    padding-top: 4rem;
+  }
+
+  /*div rundt om al teksten ved siden af*/
+  .inspi-text-box {
+    padding-left: 6rem;
+    padding-top: 12rem;
+  }
+
+  /*selve teksten*/
+  .inspi-text {
+    padding-bottom: 3rem;
+  }
+
+  /*teksten+prisen under første billede*/
+  .tingpris {
+    display: flex;
+    gap: 7rem;
+  }
+
+  /*fader prisen*/
+  .pris-fade {
+    color: #0000009c;
+    justify-self: end;
+  }
+}

@@ -11,9 +11,16 @@ img {
   display: block;
 }
 
+/*************** Generelt *********************/
 p {
   font-family: "Gudea", sans-serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+h4 {
+  font-family: "Gudea", sans-serif;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -33,18 +40,20 @@ h2 {
 body {
   background-color: #fffff1;
 }
-
+/***************************************************MOBIL**************************************************/
+/*første header med meddelelse om levering*/
 #header1 {
   background-color: #d6fad6;
   text-align: center;
   color: #008000;
   padding-block: 1rem;
+  font-size: 0.8rem;
 }
 
-.logo {
-  width: 300px;
-  padding-block: 1.4rem;
-  padding-left: 5rem;
+@media screen and (min-width: 800px) {
+  #header1 {
+    font-size: 1rem;
+  }
 }
 
 /*HEADER - ENS PÅ ALLE SIDER*/
@@ -60,14 +69,17 @@ body {
   font-family: "Gudea", sans-serif;
   font-weight: 400;
   font-style: normal;
-  height: 70px;
+  height: 60px;
   font-size: 1.2rem;
   background-color: #fffff1;
   color: #49391c;
 }
 
 .logo {
-  width: 320px;
+  width: 340px;
+  padding-left: 5rem;
+  padding-top: 0.4rem;
+  padding-right: 3rem;
 }
 
 .menu {
@@ -155,197 +167,7 @@ body {
   }
 }
 
-/*hero*/
-#forside-hero {
-  padding-top: 18rem;
-  text-align: center;
-  height: 550px;
-  background-image: url(/forside-img/fluffy-toy-texture-close-up.webp);
-  object-fit: fill;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#forside-hero h1 {
-  color: #fffff1;
-}
-
-#forside-hero h2 {
-  color: #fffff1;
-}
-
-.hero-cta-box {
-  padding-top: 3rem;
-}
-
-.hero-cta {
-  padding: 1.2rem;
-  padding-block: 0.8rem;
-  background-color: #fffff1;
-  border: none;
-  color: #408b58;
-  font-size: 1.2rem;
-}
-
-.hero-cta:hover {
-  background-color: #c5e6c4;
-}
-
-/*kategori-sektion*/
-#kategorier {
-  height: 500px;
-  text-align: center;
-  padding-top: 5rem;
-}
-
-#kategorier h2 {
-  padding-bottom: 2rem;
-}
-
-.kategori {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.kat {
-  width: 200px;
-  padding-bottom: 0.5rem;
-  transition: 0.3s ease;
-}
-
-.kat:hover {
-  filter: brightness(90%);
-}
-
-/*inspiration sektion*/
-#inspiration {
-  height: 675px;
-  background-color: #aaedaa;
-  padding-top: 2.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-}
-
-.inspi1 {
-  height: 340px;
-  width: 260px;
-  padding-bottom: 0.5rem;
-}
-
-.inspi1:hover {
-  filter: brightness(90%);
-}
-
-.inspi1-box {
-  padding-left: 6rem;
-  padding-top: 4rem;
-}
-
-.inspi-text-box {
-  padding-left: 6rem;
-  padding-top: 12rem;
-}
-
-.inspi-text {
-  padding-bottom: 3rem;
-}
-
-.inspi2 {
-  width: 400px;
-}
-
-.tingpris {
-  display: flex;
-  gap: 6rem;
-}
-
-.inspi-btn {
-  padding: 1.2rem;
-  padding-block: 0.8rem;
-  background-color: #408b58;
-  border: none;
-  color: #fffff1;
-}
-
-.inspi-btn:hover {
-  background-color: #36774b;
-}
-
-/*andet sektion*/
-#andet {
-  height: 2000px;
-}
-
-#andet h1 {
-  font-size: 3rem;
-}
-
-.aktivitet {
-  display: flex;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  justify-items: center;
-  padding: 7rem;
-  padding-top: 4rem;
-}
-
-.andet-img {
-  width: 600px;
-}
-
-.opdagelse {
-  text-align: center;
-  justify-items: center;
-}
-
-.row1 {
-  display: flex;
-  gap: 1rem;
-  padding-top: 3rem;
-  padding-bottom: 1.5rem;
-}
-
-.row2 {
-  padding-top: 1.5rem;
-  display: flex;
-  gap: 1rem;
-}
-
-.opdagelse-img {
-  width: 400px;
-  padding-bottom: 1rem;
-}
-
-.link {
-  padding-top: 2rem;
-  transition: 1s fade;
-  font-size: 0.9rem;
-  text-decoration: underline;
-  color: #408b58;
-}
-
-.link:hover {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-/*prisvindende sektion*/
-#pris {
-  height: 600px;
-  background-color: #dcedaa;
-  text-align: center;
-  padding-top: 5rem;
-}
-
-#footer1 {
-  height: 1500px;
-  text-align: center;
-  padding-top: 5rem;
-}
-
+/*****************************FOOTER*********************************/
 footer {
   height: 480px;
   padding-top: 4rem;
@@ -359,6 +181,7 @@ footer {
 footer p {
   padding-block: 0.5rem;
   color: white;
+  cursor: pointer;
 }
 
 footer p:hover {
