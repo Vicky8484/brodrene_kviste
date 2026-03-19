@@ -1,0 +1,62 @@
+/**********MOBIL**********/
+
+/*hele sectionen*/
+#kategori-section {
+  max-height: 500px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+/*titlen*/
+#kategori-section h2 {
+  padding-bottom: 2rem;
+}
+
+/*div rundt om alt indhold, grid får indhold i kolonner*/
+.kategori {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  overflow-x: scroll;
+}
+
+/*billederne+teksterne*/
+.kat {
+  width: 200px;
+  padding-bottom: 1rem;
+  transition: 0.3s ease;
+}
+
+.kat:hover {
+  filter: brightness(90%);
+}
+
+.kat-img {
+  width: 200px;
+}
+
+/*sygeste customizable scrollbar*/
+.kategori::-webkit-scrollbar {
+  width: 10px;
+}
+.kategori::-webkit-scrollbar-track-piece {
+  background: white;
+  border: solid 1px #3b6e4a;
+  margin-left: 1rem;
+}
+.kategori::-webkit-scrollbar-thumb {
+  background: #3b6e4a;
+}
+.kategori::-webkit-scrollbar-button:end:increment {
+  height: 100%;
+  display: block;
+  background: transparent;
+}
+
+@media screen and (min-width: 950px) {
+  .kategori {
+    justify-content: center;
+    overflow-x: hidden;
+  }
+}

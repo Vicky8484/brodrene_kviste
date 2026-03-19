@@ -7,6 +7,12 @@
     <title>Brødrene Kviste</title>
 
     <link rel="stylesheet" href="stylesheets/general.css">
+    <link rel="stylesheet" href="stylesheets/hero.css">
+    <link rel="stylesheet" href="stylesheets/kategori.css">
+    <link rel="stylesheet" href="stylesheets/inspiration.css">
+    <link rel="stylesheet" href="stylesheets/andet.css">
+    <link rel="stylesheet" href="stylesheets/pris.css">
+    <link rel="stylesheet" href="stylesheets/footer1.css">
 
     <!--Hanalei fill font-->
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Hanalei+Fill&display=swap" rel="stylesheet">
@@ -21,6 +27,8 @@
 
     <!--Aclonica font-->
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/forside-img/bkfavicon.webp">
 
 </head>
 
@@ -47,7 +55,7 @@
         </nav>
     </header>
     <main>
-        <div id="forside-hero">
+        <div id="hero-section">
             <div>
                 <h2>Lejetøj til alle børn!</h2>
                 <h1>Sjov til de små</h1>
@@ -56,42 +64,68 @@
                 <button class="hero-cta">Shop nyhederne</button>
             </div>
         </div>
-        <div id="kategorier">
+        <div id="kategori-section">
             <h2>Udforsk produktkategorier</h1>
                 <div class="kategori">
-                    <div class="bamser">
-                        <img class="kat" src="forside-img/kat1.png" alt="bamser">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat1.png" alt="bamser">
                         <p>Bamser og dukker</p>
                     </div>
-                    <div class="lego">
-                        <img class="kat" src="forside-img/kat2.png" alt="lego og klodser">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat2.png" alt="lego og klodser">
                         <p>Lego og klodser</p>
                     </div>
-                    <div class="puslespil">
-                        <img class="kat" src="forside-img/kat3.png" alt="puslespil">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat3.png" alt="puslespil">
                         <p>Puslespil</p>
                     </div>
-                    <div class="figur">
-                        <img class="kat" src="forside-img/kat4.png" alt="figurer">
+                    <div class="kat">
+                        <img class="kat-img" src="forside-img/kat4.png" alt="figurer">
                         <p>Figurer</p>
                     </div>
                 </div>
         </div>
-        <div id="inspiration">
+        <div id="inspiration-section-mobil">
+            <div class="inspi-bigbox">
+                <div>
+                    <img class="inspi-img1" src="forside-img/inspi1.jpg" alt="farver">
+                    <div class="inspi-img-text">
+                        <p>Farveblyanter</p>
+                        <p class="pris-fade">29,80 kr.</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="inspi-img2" src="forside-img/inspi2.jpg" alt="børn der tegner">
+                </div>
+            </div>
+            <div>
+                <div class="inspi-text-mobil">
+                    <div>
+                        <h2>Få inspiration</h2>
+                        <h1>Kreativ aktivitet</h1>
+                        <p>Brødrene har et væld af krea forsyninger til selv de mindste.</p>
+                        <p>Udforsk dem her.</p>
+                    </div>
+                    <br>
+                    <button class="inspi-btn">SE NYHEDERNE</button>
+                </div>
+            </div>
+        </div>
+        <div id="inspiration-section">
             <div class="inspi1-box">
                 <img class="inspi1" src="forside-img/inspi1.jpg" alt="farver">
                 <div class="tingpris">
                     <p>Farveblyanter</p>
-                    <p>29,80 kr.</p>
+                    <p class="pris-fade">29,80 kr.</p>
                 </div>
             </div>
-            <div>
+            <div class="inspi2-box">
                 <img class="inspi2" src="forside-img/inspi2.jpg" alt="børn der tegner">
             </div>
             <div class="inspi-text-box">
                 <div class="inspi-text">
                     <h2>Få inspiration</h2>
-                    <h1>Kreativt Aktiv</h1>
+                    <h1>Kreativ aktivitet</h1>
                     <br>
                     <p>Brødrene har et væld af krea forsyninger til selv de mindste.</p>
                     <p>Udforsk dem her.</p>
@@ -99,15 +133,18 @@
                 <button class="inspi-btn">SE NYHEDERNE</button>
             </div>
         </div>
-        <div id="andet">
+        <div id="andet-section">
             <div class="aktivitet">
                 <div class="kom">
                     <h2>Kom og vær med</h2>
                     <h1>Hvem bygger højest?</h1>
                     <img class="andet-img" src="forside-img/bygtarn.png" alt="dreng der bygger et tårn">
                     <br>
-                    <p>Fra d. 16. til d. 22. januar kan alle komme og bygge tårne i Brødrene Kvistes butikker.</p>
-                    <p>De som holder rekorderne for de tre højeste tårne vinder gavekort på 500 kr.</p>
+                    <p class="hidden">Fra d. 16. til d. 22. januar kan alle komme og bygge tårne i Brødrene Kvistes
+                        butikker.</p>
+                    <p class="hidden">De som holder rekorderne for de tre højeste tårne vinder gavekort på 500 kr.</p>
+                    <p class="no-hidden">Fra d. 16. til d. 22. januar kan alle komme og bygge tårne i Brødrene Kvistes
+                        butikker. De som holder rekorderne for de tre højeste tårne vinder gavekort på 500 kr.</p>
                     <br>
                     <button>Læs mere</button>
                 </div>
@@ -116,15 +153,62 @@
                     <h1>Dit barns eget sjov</h1>
                     <img class="andet-img" src="forside-img/egetsjov.png" alt="pige der leger">
                     <br>
-                    <p>Legetøj der er tilpasset DIT barns behov og skræddersyet til DIT barns underholdning?</p>
-                    <p>Fra d. 29. januar lancerer vi en kollektion med en række "customizable" lejetøj, som</p>
-                    <p>kan tilpasses i henhold til farve, mønster, sværhedsgrad og alt muligt andet.</p>
-                    <p>I kan allerede tage et smugkig på udvalgte nyheder og spotte jeres favoritter.</p>
+                    <p class="hidden">Legetøj der er tilpasset DIT barns behov og skræddersyet til DIT barns
+                        underholdning?</p>
+                    <p class="hidden">Fra d. 29. januar lancerer vi en kollektion med en række "customizable" lejetøj,
+                        som</p>
+                    <p class="hidden">kan tilpasses i henhold til farve, mønster, sværhedsgrad og alt muligt andet.</p>
+                    <p class="hidden">I kan allerede tage et smugkig på udvalgte nyheder og spotte jeres favoritter.</p>
+                    <p class="no-hidden">Legetøj der er tilpasset DIT barns behov og skræddersyet til DIT barns
+                        underholdning? Fra d. 29. januar lancerer vi en kollektion med en række "customizable" lejetøj,
+                        som kan tilpasses i henhold til farve, mønster, sværhedsgrad og alt muligt andet. I kan allerede
+                        tage et smugkig på udvalgte nyheder og spotte jeres favoritter.</p>
                     <br>
                     <button>Se mere</button>
                 </div>
             </div>
+            <div class="opdagelse-mobil">
+                <img class="byggeklodser" src="forside-img/byggeklodser.webp" alt="byggeklodser">
+                <h1>Gå på opdagelse</h1>
+                <div class="row-mob-1">
+                    <div>
+                        <img class="mobil-img" src="forside-img/motorik.jpg" alt="barn der leger med modellervoks">
+                        <p>MOTORIK</p>
+                        <p class="link">SE HELE UDVALGET</p>
+                    </div>
+                    <div>
+                        <img class="mobil-img" src="forside-img/handoje.jpg" alt="børn der leger med legoklodser">
+                        <p>HÅND-ØJE KOORDINATION</p>
+                        <p class="link">SE HELE UDVALGET</p>
+                    </div>
+                </div>
+                <div class="row-mob-2">
+                    <div>
+                        <img class="mobil-img" src="forside-img/problem.jpg" alt="barn der lægger puslespil">
+                        <p>PROBLEMLØSNING</p>
+                        <p class="link">SE HELE UDVALGET</p>
+                    </div>
+                    <div>
+                        <img class="mobil-img" src="forside-img/3.png" alt="0-3 årigt barn">
+                        <p>ALDRE 0-3</p>
+                        <p class="link">SE HELE UDVALGET</p>
+                    </div>
+                </div>
+                <div class="row-mob-3">
+                    <div>
+                        <img class="mobil-img" src="forside-img/7.png" alt="4-7 årigt barn">
+                        <p>ALDRE 4-7</p>
+                        <p class="link">SE HELE UDVALGET</p>
+                    </div>
+                    <div>
+                        <img class="mobil-img" src="forside-img/11.png" alt="8-11 årigt barn">
+                        <p>ALDRE 8-11</p>
+                        <p class="link">SE HELE UDVALGET</p>
+                    </div>
+                </div>
+            </div>
             <div class="opdagelse">
+                <img class="byggeklodser" src="forside-img/byggeklodser.webp" alt="byggeklodser">
                 <h1>Gå på opdagelse</h1>
                 <div class="row1">
                     <div>
@@ -161,25 +245,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="pris">
-            <h1>Prisvindende legetøj</h1>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div>
-                <h2>Netop nu finder De et væld af smukke og prisvenlige møbler til hele hjemmet. Udforsk og opdatér
-                    hjemmet til en venlig
-                    pris.</h2>
-                <br>
-                <button>Udforsk prisvindende legetøj</button>
-            </div>
-        </div>
-        <div id="footer1">
-            <h2>Prisvindende legetøj</h1>
         </div>
     </main>
     <footer>

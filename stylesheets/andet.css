@@ -1,0 +1,233 @@
+/**********MOBIL**********/
+
+/*hele sectionen*/
+#andet-section {
+  padding-bottom: 3rem;
+}
+
+/*h1'ere i sectionen*/
+#andet-section h1 {
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*div rundt om de to artikler*/
+.aktivitet {
+  gap: 1rem;
+  justify-items: center;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+/*byggeklods billedet før h1'eren "gå på opdagelse*/
+.byggeklodser {
+  width: 100px;
+}
+
+/*første artikel*/
+.kom {
+  padding-bottom: 2rem;
+}
+
+/*al tekst der ikke skal vises i mobil*/
+.hidden {
+  display: none;
+}
+
+.no-hidden {
+  display: block;
+}
+
+/*div rundt om hele "opdagelse" sectionen*/
+.opdagelse {
+  display: none;
+}
+
+/*opdagelse section i mobil*/
+.opdagelse-mobil {
+  display: block;
+  text-align: center;
+  justify-items: center;
+}
+
+/*første række kategorier*/
+.row-mob-1 {
+  display: flex;
+  gap: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+/*anden række kategorier*/
+.row-mob-2 {
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/*tredje række kategorier*/
+.row-mob-3 {
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+/*billederne i opdagelse*/
+.mobil-img {
+  max-width: 220px;
+}
+
+/*tekst der ligner links*/
+.link {
+  padding-top: 2rem;
+  transition: 1s fade;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: #408b58;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*knapper*/
+.aktivitet button {
+  padding: 3rem;
+  padding-block: 0.8rem;
+  background-color: #408b58;
+  border: none;
+  color: #fffff1;
+  font-size: 1rem;
+}
+
+.aktivitet button:hover {
+  background-color: #36774b;
+}
+
+/**********MELLEMLIGGENDE**********/
+@media screen and (min-width: 850px) {
+  #andet-section h1 {
+    font-size: 3rem;
+  }
+
+  .aktivitet {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    padding: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+  }
+
+  /*al tekst der skal/ikke skal vises i desktop*/
+  .hidden {
+    display: block;
+  }
+
+  .no-hidden {
+    display: none;
+  }
+
+  /*byggeklods billedet før h1'eren "gå på opdagelse*/
+  .byggeklodser {
+    width: 100px;
+  }
+  .opdagelse {
+    text-align: center;
+    justify-items: center;
+    display: block;
+  }
+
+  .opdagelse-mobil {
+    display: none;
+  }
+
+  .opdagelse h1 {
+    padding-top: 3rem;
+  }
+
+  .row1 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .row2 {
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .opdagelse-img {
+    width: 260px;
+    padding-bottom: 1rem;
+  }
+}
+
+/**********DESKTOP**********/
+@media screen and (min-width: 1300px) {
+  #andet-section h1 {
+    font-size: 3rem;
+  }
+
+  .aktivitet {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+    padding: 7rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+  }
+
+  /*al tekst der skal/ikke skal vises i desktop*/
+  .hidden {
+    display: block;
+  }
+
+  .no-hidden {
+    display: none;
+  }
+
+  /*byggeklods billedet før h1'eren "gå på opdagelse*/
+  .byggeklodser {
+    width: 100px;
+  }
+  .opdagelse {
+    text-align: center;
+    justify-items: center;
+    display: block;
+  }
+
+  .opdagelse-mobil {
+    display: none;
+  }
+
+  .opdagelse h1 {
+    padding-top: 3rem;
+  }
+
+  .row1 {
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .row2 {
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .opdagelse-img {
+    width: 400px;
+    padding-bottom: 1rem;
+  }
+}

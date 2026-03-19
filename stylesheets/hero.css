@@ -1,0 +1,75 @@
+/*********MOBIL**********/
+#hero-section {
+  padding-top: 10rem;
+  text-align: center;
+  max-height: 600px;
+  background-image: url(forside-img/fluffy-toy-texture-close-up.webp);
+  object-fit: fill;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3rem;
+}
+
+#hero-section h1 {
+  color: #fffff1;
+}
+
+#hero-section h2 {
+  color: #fffff1;
+}
+
+.hero-cta-box {
+  padding-top: 3rem;
+}
+
+.hero-cta {
+  padding: 1.2rem;
+  padding-block: 0.8rem;
+  background-color: #fffff1;
+  border: none;
+  color: #408b58;
+  font-size: 1.2rem;
+}
+
+.hero-cta:hover {
+  background-color: #c5e6c4;
+}
+
+/**********DESKTOP**********/
+@media screen and (min-width: 800px) {
+  #hero-section {
+    padding-top: 18rem;
+    text-align: center;
+    max-height: 600px;
+    background-image: url(/forside-img/fluffy-toy-texture-close-up.webp);
+    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+  }
+
+  #hero-section h1 {
+    color: #fffff1;
+  }
+
+  #hero-section h2 {
+    color: #fffff1;
+  }
+
+  .hero-cta-box {
+    padding-top: 3rem;
+  }
+
+  .hero-cta {
+    padding: 1.2rem;
+    padding-block: 0.8rem;
+    background-color: #fffff1;
+    border: none;
+    color: #408b58;
+    font-size: 1.2rem;
+  }
+
+  .hero-cta:hover {
+    background-color: #c5e6c4;
+  }
+}
