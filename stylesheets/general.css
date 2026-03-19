@@ -123,6 +123,38 @@ body {
   display: none;
 }
 
+/*****************************FOOTER*********************************/
+footer {
+  height: 480px;
+  padding-top: 4rem;
+  background-color: #60a945;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+footer p {
+  padding-block: 0.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+footer p:hover {
+  text-decoration: underline;
+}
+
+footer h4 {
+  padding-bottom: 0.5rem;
+  color: white;
+}
+
+.footer {
+  padding: 6rem;
+  padding-top: 0;
+}
+
+/****************************************************************/
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
@@ -165,35 +197,28 @@ body {
   nav.active .menu a {
     font-size: 24px;
   }
-}
 
-/*****************************FOOTER*********************************/
-footer {
-  height: 480px;
-  padding-top: 4rem;
-  background-color: #60a945;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
+  body {
+    overflow-x: hidden;
+  }
 
-footer p {
-  padding-block: 0.5rem;
-  color: white;
-  cursor: pointer;
-}
+  footer {
+    padding-top: 4rem;
+    background-color: #60a945;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    height: 800px;
+  }
 
-footer p:hover {
-  text-decoration: underline;
-}
+  footer p {
+    font-size: 0.7rem;
+  }
 
-footer h4 {
-  padding-bottom: 0.5rem;
-  color: white;
-}
-
-.footer {
-  padding: 6rem;
-  padding-top: 0;
+  .footer {
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 2rem;
+  }
 }
