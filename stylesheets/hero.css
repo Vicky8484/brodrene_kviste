@@ -3,7 +3,7 @@
   padding-top: 10rem;
   text-align: center;
   max-height: 600px;
-  background-image: url(./forside-img/fluffy-toy-texture-close-up.webp);
+  background-image: url(../forside-img/fluffy-toy-texture-close-up.webp);
   object-fit: fill;
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
     padding-top: 18rem;
     text-align: center;
     max-height: 600px;
-    background-image: url(/forside-img/fluffy-toy-texture-close-up.webp);
+    background-image: url(../forside-img/fluffy-toy-texture-close-up.webp);
     object-fit: fill;
     background-size: cover;
     background-repeat: no-repeat;
